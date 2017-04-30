@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo $PATH; /usr/local/bin/docker'
+                sh 'echo $PATH; /Applications/Docker.app/Contents/Resources/bin/docker'
             }
         }
     }
