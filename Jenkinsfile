@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo $PATH; ll /usr/local/bin/docker'
+                sh 'echo $PATH; /usr/local/bin/docker'
             }
         }
     }
